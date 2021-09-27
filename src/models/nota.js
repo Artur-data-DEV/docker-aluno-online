@@ -14,9 +14,26 @@ class Nota {
         );
     }
 
+
     mediaCA() {
-        return "SS";
+        let media = this.mediaFinal()
+        if (media <= 5){
+            return 'MI'
+        }
+        else if (media > 5 && media <= 6.9){
+            return 'MM'
+        }
+        else if (media > 6.9 && media <= 8.9){
+            return 'MS'
+        }
+        else if (media > 8.9 && media <= 10){
+            return 'SS'
+        }
+        else{
+            return 'Sem nota!'
+        }
     }
 }
+
 
 module.exports = Nota;
