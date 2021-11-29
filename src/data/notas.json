@@ -2,9 +2,9 @@
    "data": [
       {
          "disciplina": "ADS030 - Manutenção de Software e DevOps",
-         "a1": 5.2,
-         "a2": 3.8,
-         "a3": 4.8
+         "a1": 9,
+         "a2": 9,
+         "a3": null
       },
       {
          "disciplina": "ADS032 - Construção de Frontend",
